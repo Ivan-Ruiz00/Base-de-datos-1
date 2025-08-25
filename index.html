@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base de datos</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <div id="encabezado">
+        <h1>Busqueda de articulos</h1>
+    </div>
+    <div id="menu">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">Menú</th>
+                </tr>
+            </thead>
+            <tbody id="menu-tablas">
+                <tr class="table-active" onclick="baseDeDatos()">
+                    <th scope="row">Base de datos</th>
+                </tr>
+                <tr class="table-active" onclick="busqueda()">
+                    <th scope="row">Búsqueda</th>
+                </tr>
+                <tr class="table-active" onclick="tabla()">
+                    <th scope="row">Tabla</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="contenido">
+    </div>
+    <script src="contenido.js"></script>
+</body>
+
+</html>
